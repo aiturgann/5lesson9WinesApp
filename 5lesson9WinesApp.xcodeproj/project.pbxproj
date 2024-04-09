@@ -10,24 +10,24 @@
 		1D33D6A32BC3C799008AD1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6A22BC3C799008AD1D1 /* AppDelegate.swift */; };
 		1D33D6A52BC3C799008AD1D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6A42BC3C799008AD1D1 /* SceneDelegate.swift */; };
 		1D33D6A72BC3C799008AD1D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6A62BC3C799008AD1D1 /* ViewController.swift */; };
-		1D33D6AA2BC3C799008AD1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D33D6A82BC3C799008AD1D1 /* Main.storyboard */; };
 		1D33D6AC2BC3C79A008AD1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D33D6AB2BC3C79A008AD1D1 /* Assets.xcassets */; };
 		1D33D6AF2BC3C79A008AD1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D33D6AD2BC3C79A008AD1D1 /* LaunchScreen.storyboard */; };
 		1D33D6B72BC3C7CE008AD1D1 /* WineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6B62BC3C7CE008AD1D1 /* WineService.swift */; };
 		1D33D6B92BC3C8F7008AD1D1 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6B82BC3C8F7008AD1D1 /* Wine.swift */; };
+		1D33D6BB2BC50252008AD1D1 /* WineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33D6BA2BC50252008AD1D1 /* WineCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D33D69F2BC3C799008AD1D1 /* 5lesson8WinesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5lesson8WinesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D33D69F2BC3C799008AD1D1 /* 5lesson9WinesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5lesson9WinesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D33D6A22BC3C799008AD1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D33D6A42BC3C799008AD1D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D33D6A62BC3C799008AD1D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1D33D6A92BC3C799008AD1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D33D6AB2BC3C79A008AD1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D33D6AE2BC3C79A008AD1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D33D6B02BC3C79A008AD1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D33D6B62BC3C7CE008AD1D1 /* WineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineService.swift; sourceTree = "<group>"; };
 		1D33D6B82BC3C8F7008AD1D1 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		1D33D6BA2BC50252008AD1D1 /* WineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		1D33D6962BC3C799008AD1D1 = {
 			isa = PBXGroup;
 			children = (
-				1D33D6A12BC3C799008AD1D1 /* 5lesson8WinesApp */,
+				1D33D6A12BC3C799008AD1D1 /* 5lesson9WinesApp */,
 				1D33D6A02BC3C799008AD1D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +52,33 @@
 		1D33D6A02BC3C799008AD1D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D33D69F2BC3C799008AD1D1 /* 5lesson8WinesApp.app */,
+				1D33D69F2BC3C799008AD1D1 /* 5lesson9WinesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D33D6A12BC3C799008AD1D1 /* 5lesson8WinesApp */ = {
+		1D33D6A12BC3C799008AD1D1 /* 5lesson9WinesApp */ = {
 			isa = PBXGroup;
 			children = (
 				1D33D6A22BC3C799008AD1D1 /* AppDelegate.swift */,
 				1D33D6A42BC3C799008AD1D1 /* SceneDelegate.swift */,
 				1D33D6A62BC3C799008AD1D1 /* ViewController.swift */,
-				1D33D6A82BC3C799008AD1D1 /* Main.storyboard */,
 				1D33D6AB2BC3C79A008AD1D1 /* Assets.xcassets */,
 				1D33D6AD2BC3C79A008AD1D1 /* LaunchScreen.storyboard */,
 				1D33D6B02BC3C79A008AD1D1 /* Info.plist */,
 				1D33D6B62BC3C7CE008AD1D1 /* WineService.swift */,
 				1D33D6B82BC3C8F7008AD1D1 /* Wine.swift */,
+				1D33D6BA2BC50252008AD1D1 /* WineCell.swift */,
 			);
-			path = 5lesson8WinesApp;
+			path = 5lesson9WinesApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D33D69E2BC3C799008AD1D1 /* 5lesson8WinesApp */ = {
+		1D33D69E2BC3C799008AD1D1 /* 5lesson9WinesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D33D6B32BC3C79A008AD1D1 /* Build configuration list for PBXNativeTarget "5lesson8WinesApp" */;
+			buildConfigurationList = 1D33D6B32BC3C79A008AD1D1 /* Build configuration list for PBXNativeTarget "5lesson9WinesApp" */;
 			buildPhases = (
 				1D33D69B2BC3C799008AD1D1 /* Sources */,
 				1D33D69C2BC3C799008AD1D1 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = 5lesson8WinesApp;
+			name = 5lesson9WinesApp;
 			productName = 5lesson9WinesApp;
-			productReference = 1D33D69F2BC3C799008AD1D1 /* 5lesson8WinesApp.app */;
+			productReference = 1D33D69F2BC3C799008AD1D1 /* 5lesson9WinesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D33D69A2BC3C799008AD1D1 /* Build configuration list for PBXProject "5lesson8WinesApp" */;
+			buildConfigurationList = 1D33D69A2BC3C799008AD1D1 /* Build configuration list for PBXProject "5lesson9WinesApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D33D69E2BC3C799008AD1D1 /* 5lesson8WinesApp */,
+				1D33D69E2BC3C799008AD1D1 /* 5lesson9WinesApp */,
 			);
 		};
 /* End PBXProject section */
@@ -133,7 +133,6 @@
 			files = (
 				1D33D6AF2BC3C79A008AD1D1 /* LaunchScreen.storyboard in Resources */,
 				1D33D6AC2BC3C79A008AD1D1 /* Assets.xcassets in Resources */,
-				1D33D6AA2BC3C799008AD1D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +145,7 @@
 			files = (
 				1D33D6B72BC3C7CE008AD1D1 /* WineService.swift in Sources */,
 				1D33D6B92BC3C8F7008AD1D1 /* Wine.swift in Sources */,
+				1D33D6BB2BC50252008AD1D1 /* WineCell.swift in Sources */,
 				1D33D6A72BC3C799008AD1D1 /* ViewController.swift in Sources */,
 				1D33D6A32BC3C799008AD1D1 /* AppDelegate.swift in Sources */,
 				1D33D6A52BC3C799008AD1D1 /* SceneDelegate.swift in Sources */,
@@ -155,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1D33D6A82BC3C799008AD1D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D33D6A92BC3C799008AD1D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D33D6AD2BC3C79A008AD1D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -304,9 +296,9 @@
 				INFOPLIST_FILE = 5lesson9WinesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,9 +323,9 @@
 				INFOPLIST_FILE = 5lesson9WinesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D33D69A2BC3C799008AD1D1 /* Build configuration list for PBXProject "5lesson8WinesApp" */ = {
+		1D33D69A2BC3C799008AD1D1 /* Build configuration list for PBXProject "5lesson9WinesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D33D6B12BC3C79A008AD1D1 /* Debug */,
@@ -359,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D33D6B32BC3C79A008AD1D1 /* Build configuration list for PBXNativeTarget "5lesson8WinesApp" */ = {
+		1D33D6B32BC3C79A008AD1D1 /* Build configuration list for PBXNativeTarget "5lesson9WinesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D33D6B42BC3C79A008AD1D1 /* Debug */,
